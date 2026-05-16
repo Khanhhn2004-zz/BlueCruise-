@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="bg_dark">#121212</color>
+    <color name="card_dark">#1E1E1E</color>
+    <color name="primary_blue">#42A5F5</color>
+    <color name="card_stroke">#333333</color>
+    <color name="yellow_warning">#FBC02D</color>
+    <color name="text_gray">#AAAAAA</color>
+    <color name="text_secondary_on_dark">#D2D2D2</color>
+    <color name="text_muted_on_dark">#C3C3C3</color>
+    <color name="dark_overlay">#2C2C2C</color>
+    <color name="blue_transparent">#3342A5F5</color>
+    <color name="bubble_greeting_idle">#56CCC0</color>
+    <color name="bubble_greeting_active">#6FE3D6</color>
+    <color name="bubble_goodbye_idle">#F28B82</color>
+    <color name="bubble_goodbye_active">#FF9E95</color>
+    <color name="primary_blue_10">#1A42A5F5</color> <!-- PrimaryBlue 0.1f alpha -->
+    <color name="yellow_warning_15">#26FBC02D</color> <!-- YellowWarning 0.15f alpha -->
+    <color name="yellow_warning_20">#33FBC02D</color> <!-- YellowWarning 0.2f alpha -->
+    <color name="yellow_warning_50">#80FBC02D</color> <!-- YellowWarning 0.5f alpha -->
+    <color name="transparent">#00000000</color>
+</resources>

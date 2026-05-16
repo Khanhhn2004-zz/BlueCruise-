@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingHorizontal="12dp"
+    android:paddingTop="12dp"
+    android:paddingBottom="24dp">
+
+    <TextView
+        android:id="@+id/tvLogoutDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/logout_description"
+        android:textColor="@color/text_muted_on_dark"
+        android:textSize="12sp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnLogout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:paddingVertical="10dp"
+        android:text="@string/logout"
+        android:textColor="@color/white"
+        app:backgroundTint="@color/black"
+        app:cornerRadius="12dp"
+        app:icon="@drawable/ic_lock_outline"
+        app:iconGravity="textStart"
+        app:iconTint="@color/white" />
+</LinearLayout>

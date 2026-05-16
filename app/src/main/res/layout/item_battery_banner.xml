@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cv_battery_optimization"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/margin_small"
+    android:paddingBottom="@dimen/padding_small"
+    app:cardBackgroundColor="@color/yellow_warning_15"
+    app:cardCornerRadius="@dimen/radius_large"
+    app:cardElevation="0dp"
+    app:strokeColor="@color/yellow_warning_50"
+    app:strokeWidth="1dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/padding_medium">
+
+        <ImageView
+            android:id="@+id/iv_battery_icon"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="@drawable/bg_rounded_16dp_yellow_20"
+            android:padding="12dp"
+            android:src="@android:drawable/stat_sys_warning"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:tint="@color/yellow_warning" />
+
+        <TextView
+            android:id="@+id/tv_battery_title"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_medium"
+            android:text="Tối ưu hóa Pin"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/iv_battery_icon"
+            app:layout_constraintTop_toTopOf="@id/iv_battery_icon" />
+
+        <TextView
+            android:id="@+id/tv_battery_desc"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_medium"
+            android:text="Nhấn để tắt giới hạn chạy ngầm"
+            android:textColor="@color/text_secondary_on_dark"
+            android:textSize="13sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/iv_battery_icon"
+            app:layout_constraintTop_toBottomOf="@id/tv_battery_title" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</com.google.android.material.card.MaterialCardView>
